@@ -6,8 +6,18 @@
 *.dylib
 *.DS_STORE
 *.idea
+*.got
 gitleaks
 build
 
+# configs
+.gitleaks.toml
+cmd/generate/config/gitleaks.toml
+
+# test results
+testdata/expected/report/*.got.*
+
 # Test binary
 *.out
+
+dist/
